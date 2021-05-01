@@ -1,0 +1,68 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
+.container {
+    display: flex;
+}
+
+h3 {
+    width: 50vw;
+    margin: auto;
+    font-size: 2rem;
+}
+
+button{
+    font-weight: bold;
+    width: 25vw;
+    font-size: large;
+    border: 2px solid black;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+
+.scoreboard {
+    display: flex;
+    margin: 20px auto;
+  
+}
+
+.grid {
+    border: 3px solid black;
+    width: 200px;
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.grid div{
+    height:20px;
+    width: 20px;
+}
+
+.tetromino {
+    background-color: blueviolet;
+}
+
+
+.mini-grid {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    flex-wrap: wrap;
+    background-color: aqua;
+    border: 3px solid black;
+}
+
+.mini-grid div {
+    width: 20px;
+    height: 20px;
+   
+}
+
